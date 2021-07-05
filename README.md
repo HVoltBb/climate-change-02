@@ -21,18 +21,15 @@
 [PNA index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/pna.shtml)
 [AMO index](https://psl.noaa.gov/data/timeseries/AMO/)
 
-Disclaimer: Neither of the datasets are owned/maintained by me. Please go to the original source to obtain your own copy of the file. Questions solely related to the dataset should be directed to the data maintainers found in the links above. However, if the links provided above are broken, let me know. The format of the current version of the data files might be different from my copy, and you may need to change some lines in the [preprocessing code](src/prep.R) to take that into account. 
+Disclaimer: Neither of the datasets are owned/maintained by me. Please go to the original source to obtain your own copy of the file. Questions solely related to the dataset should be directed to the data maintainers found in the links above. However, if the links provided above are broken, let me know. The format of the current version of the data files might be different from my copy, and you may need to change some lines in the [preprocessing code](src/prep.r) to take that into account. 
 
 My own copy of the data files will be conditionally provided through PM (latency: hours) or through an automatic email server by clicking [here](mailto:eidotog@gmail.com?subject=XxCLIMATE02xX&body=Do%20not%20modify%20the%20subject%20line.%20Not%20monitored.) (latency: secs. Currently offline. Outstanding requests will be fullfilled once online). You may want to check your spam folder for the reply because replying an email in milliseconds isn't humanly possible and it will be flagged as spam the majority of the times. Note that I don't monitor these data requests. Once a request is fullfilled, the message will be permanantly removed from the server. No personal information will be collected by me.
 
 ### Source code
-The source files contain R scripts [1](src/v3.R) and [2](src/prep.R), two header files [1](src/growth.h) and [2](src/growth_imp.h), and a [TMB script](src/v5.cpp).
+The source files contain R scripts [1](src/CV.r), [2](src/prep.r), [3](src/wu.r), [4](src/job.r), two header files [1](src/growth.h) and [2](src/growth_imp.h), and a [TMB script](src/v5_3.cpp).
 
-The R code has been annotated and sectioned according to RStudio style. It is recommended to use RStudio to view the code.
+This code has been tested on both Windows and Linux systems with 32 GB of RAM. 
 
-This code has been tested on both Windows and Linux systems with 8+ GB of RAM. 
-
-Warning: it is recommended to run the full program on a system with 8+ GB of RAM. Some of the large models require a substantial amount of memory to execute. Your system may freeze if you are low on available memory. Your R may crash if the TMB program is given a wrong set of inputs. You have been warned. Do save your work first.
+Warning: it is recommended to run the full program on a system with at least 32 GB of RAM. Some of the large models require a substantial amount of memory to execute. Your system may freeze if you are low on available memory. Your R may crash if the TMB program is given a wrong set of inputs. You have been warned. Do save your work first.
 
 Bug reports, feature requests, and colabs are welcome. 
-
