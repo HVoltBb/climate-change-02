@@ -1,6 +1,7 @@
 ![cover image](https://hvoltbb.github.io/pics/cover_pic3.jpg)
 # Tracking the effects of climate change on marine life - Case study 2
 [4/23/21 update: article submitted. Text for each section will appear after being finalized]
+
 [6/15/21 update: major revision]
 
 ## Quick View
@@ -17,8 +18,11 @@
 [Tagging database](https://iccat.int/Data/Tag/_tagBFT.7z)
 
 [NAO index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml)
+
 [AO index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/ao.shtml)
+
 [PNA index](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/pna.shtml)
+
 [AMO index](https://psl.noaa.gov/data/timeseries/AMO/)
 
 Disclaimer: Neither of the datasets are owned/maintained by me. Please go to the original source to obtain your own copy of the file. Questions solely related to the dataset should be directed to the data maintainers found in the links above. However, if the links provided above are broken, let me know. The format of the current version of the data files might be different from my copy, and you may need to change some lines in the [preprocessing code](src/prep.r) to take that into account. 
