@@ -210,7 +210,7 @@ for(repx in 1:nrep){
                 # and seasonal pattern, which at most one of them can be turned
                 # ON simultaneously.
                 ####################################################################
-                logNaoc = factor(NA), #gc  = factor(rep(NA, Sdim)), # non-linear effect on linf
+                logNaoc = factor(NA), gc  = factor(rep(NA, Sdim)), # non-linear effect on linf
                 logNaok = factor(NA), gk  = factor(rep(NA, Sdim)), # non-linear effect on k
                 
                 logAoc = factor(NA), gc_ao  = factor(rep(NA, Sdim_a)), # non-linear effect on linf
@@ -222,7 +222,7 @@ for(repx in 1:nrep){
 #                e_o  = factor(rep(NA, dim(datx)[1])),
                 
                 month_k = factor(NA), month_mg = factor(NA),
-                logReg = factor(NA), #reg_ = factor(rep(NA, 2)),
+                logReg = factor(NA), reg_ = factor(rep(NA, 2)),
                 
                 logvInd = factor(NA), indl=factor(rep(NA, length(dupes) + length(singl))), # individual effect
                 lognu = factor(NA),
@@ -239,7 +239,7 @@ for(repx in 1:nrep){
 #            gc = rep$par.random[names(rep$par.random)=="gc"],
 #            gc_ao = rep$par.random[names(rep$par.random)=="gc_ao"],
 #            gc_pna = rep$par.random[names(rep$par.random)=="gc_pna"],
-            logSig1 = fit$par['logSig1'],
+            logSig1 = fit$par['logSig1']
 #            month_k = fit$par['month_k'], month_mg = fit$par['month_mg'],
 #            logvInd = fit$par['logvInd'],
 #            reg_ = rep$par.random[names(rep$par.random)=='reg_']
