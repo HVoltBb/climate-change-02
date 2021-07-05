@@ -1,3 +1,8 @@
+/* Author/maintainer: Can Zhou [eidotog@gmail.com]
+ * Date: July 3 2021
+ * Version: 0.5.3
+*/
+
 #include <TMB.hpp>
 #include "growth.h"
 

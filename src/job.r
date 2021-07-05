@@ -1,3 +1,9 @@
+"
+Author/maintainer: Can Zhou [eidotog@gmail.com]
+Date: July 3 2021
+Version: 0.1
+"
+
 job = function(i){
     dyn.load(TMB::dynlib('v5_3'))
     set.seed(i)

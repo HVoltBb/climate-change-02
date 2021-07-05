@@ -1,3 +1,9 @@
+"
+Author/maintainer: Can Zhou [eidotog@gmail.com]
+Date: July 3 2021
+Version: 0.1
+"
+
 if(!require('snow')){install.packages('snow')}
 if(!require('snowfall')){install.packages('snowfall')}
 

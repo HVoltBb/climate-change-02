@@ -1,3 +1,9 @@
+"
+Author/maintainer: Can Zhou [eidotog@gmail.com]
+Date: July 3 2021
+Version: 0.1
+"
+
 dat = read.csv('../data/_tagBFT.csv')
 
 dat.c = dat[!is.na(as.numeric(dat$ReLenCM)) & !is.na(as.numeric(dat$RcLenCM)) & !is.na(as.numeric(dat$RelYear)) & !is.na(as.numeric(dat$RecYear)),]
