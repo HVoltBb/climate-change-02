@@ -1,5 +1,5 @@
 ![cover image](https://hvoltbb.github.io/pics/cover_pic3.jpg)
-# Tracking the effects of climate change on marine life - Case study 2
+# Tracking the effects of climate change on marine life - case study 2
 [4/23/21 update: article submitted. Text for each section will appear after being finalized]
 
 [6/15/21 update: major revision]
