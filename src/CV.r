@@ -31,6 +31,9 @@ nrep = 20
 # 5 jobs will be spawned here.
 # At least 32 GB of RAM and 6 cpu cores are recommended.
 # The run time for the following code ranges from 1h to 12hs depending on the complexity of the model on a multicore desktop computer. This code is both CPU and RAM intensive. If the following code soaks up all the CPU and RAM resources on your machine, the run time will be substantialy longer, and a bigger machine is recommended.
+# The following code is configured to run on your local machine.
+# To offload the job to a cluster, you need to change the cluster type below.
+# Please refer to the documentationn of the snowfall package and the configuration of your cluster.
 
 sfInit(parallel=T, cpus=5, type='SOCK')
 sfExportAll()
