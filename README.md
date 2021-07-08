@@ -1,5 +1,11 @@
 ![cover image](https://hvoltbb.github.io/pics/cover_pic3.jpg)
 # Tracking the effects of climate change on marine life - case study 2
+
+
+![version: v0.5.3](https://img.shields.io/badge/version-v0.5.3-blue.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
 [4/23/21 update: article submitted. Text for each section will appear after being finalized]
 
 [6/15/21 update: major revision]
