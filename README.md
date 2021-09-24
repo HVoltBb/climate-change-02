@@ -10,6 +10,8 @@
 
 [6/15/21 update: major revision]
 
+[9/23/21 update: accepted]
+
 ## Quick View
 **Background**: 
 **Problem statement**: 
