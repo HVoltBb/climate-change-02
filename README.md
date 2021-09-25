@@ -42,7 +42,7 @@ The source files contain four R scripts [the main program](src/CV.r), [data prep
 
 This code has been tested on both Windows and Linux systems with 32 GB of RAM. 
 
-Warning: it is recommended to run the full program on a system with at least 32 GB of RAM. Some of the large models require a substantial amount of memory to execute. Your system may freeze if you are low on available memory. Your R may crash if the TMB program is given a wrong set of inputs. You have been warned. Do save your work first.
+Warning: it is recommended to run the full program on a system with at least 32 GB of RAM. Some of the large models require a substantial amount of memory to execute. Your system may freeze if you are low on available memory. Your R may crash if the TMB program is given a wrong set of inputs. The way RStudio handles R crashes is not elegant. You will lose all unsaved changes. Preferably, put a light wrapper around base R such that whenever base R crashes it doesn't bring your IDE with it. You can thank me later.
 
 It is unfortunate that the name of this repo reads "climate-change-02". As one of the reviewers pointed out, correctly, that this is not "climate change" but "climate variability". So just treat this name as a string of characters, just as there's no dolphin in a MySQL server, nor is there a penguin sitting on your linux desktop.
 
