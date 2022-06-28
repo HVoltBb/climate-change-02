@@ -1,0 +1,6 @@
+data/*
+src/.Rhistory
+src/*.o
+src/*.dll
+src/*.so
+xx_*
